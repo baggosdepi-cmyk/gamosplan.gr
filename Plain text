@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamosPlan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff7ed, #fde68a);
+      color: #222;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 24px;
+      max-width: 700px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #111827;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .tag {
+      color: #b45309;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="tag">GAMOSPLAN.GR</div>
+      <h1>Ο γάμος σου, οργανωμένος απλά.</h1>
+      <p>
+        Το GamosPlan βοηθά ζευγάρια να οργανώσουν τον γάμο τους εύκολα:
+        λίστα καλεσμένων, προϋπολογισμός, ιδέες, πρόγραμμα και υπενθυμίσεις.
+      </p>
+      <a class="button" href="#">Σύντομα διαθέσιμο</a>
+    </div>
+  </div>
+</body>
+</html>
